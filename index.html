@@ -1,182 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Charity</title>
+    <title>The Charity | HOME</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    
-    <header>
-        
-        <div>
-        
-            <h2>Donate Now</h2>
-        
-        </div>
-        
-        <div>
-           
-            <img src="images/logo.png" alt="Logo The Charity">
-           
-        </div>
-    
-    </header>
 
-    <section>
-        <h1>Donate</h1>
+    <!--BANNER-->
+    <div class="d-flex container-banner fondo">
+        <span class="d-flex banner p-20">Donate Now</span>
+    </div>
+    <!--END BANNER-->
+
+    <!--NAVBAR-->
+    <nav class="d-flex" id="page-nav">
+        <div class="">
+            <img class="logo" src="images/logo.png" alt="Logo The Charity">
+        </div>
+        <div>
+            <!--HAMBURGER-->
+            <label for="hamburger"><img src="./images/menu.svg" alt=""></label>
+            <input type="checkbox" id="hamburger" />
+
+            <!--MENU ITEMS-->
+            <ul>
+                <li><a href="index.html" class="li-active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Causes</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--END NAVBAR-->
+
+    <div class="hero p-20">
+        <h1 class="title-h1">Donate</h1>
         <h2>4 a better world</h2>
-        <div>
-            <h3>Donate Now</h3>
-        </div>
-    </section>
+        <span class="button d-flex m-10">
+            Donate Now
+        </span>
+    </div>
 
-    <article>
-        
-        <div>
+    <!--CARDS-->
+    <div>
+        <div class="active-card m-15 padding-card">
             <img src="images/hands-white.png" alt="Become a Volunteer">
-            <h2>Become a Volunteer</h2>
+            <h2 class="m-10">Become a Volunteer</h2>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Nobis optio quisquam maiores dolores voluptas molestiae incidunt?
             </p>
         </div>
 
-        <div>
+        <div class="card m-15 padding-card">
             <img src="images/donation-gray.png" alt="Donation Image">
-            <h2>Dance & Music</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <h2 class="m-10">Dance & Music</h2>
+            <p class="description-inactive">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Atque illo perferendis architecto ipsum voluptatem accusantium!
             </p>
         </div>
 
-        <div>
+        <div class="card m-15 padding-card">
             <img src="images/charity-gray.png" alt="Charity Image">
-            <h2>Online Conference</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <h2 class="m-10">Online Conference</h2>
+            <p class="description-inactive">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eveniet omnis dolorum cumque fugiat voluptate blanditiis!
             </p>
         </div>
+    </div>
+    <!--END CARDS-->
 
-    </article>
+    <div class="sec-1 p-20">
+        <img class="img-1 pt-60 pb-60" src="images/welcome.jpg" alt="Boy Image">
 
-    <section>
-       
-        <img src="images/i.jpg" alt="Boy Image">
-       
-        <h2>Wellcome to our Charity</h2>
-       
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Laudantium veritatis dolorem, impedit laboriosam cumque omnis accusantium 
-            officia in quisquam id dicta sequi laborum odit culpa cupiditate atque, 
-            repudiandae nemo fugit dolores, officiis quae incidunt. 
-            Nulla quaerat at quam pariatur, veniam esse ipsam ad ratione, 
-            eos iure doloremque? Doloremque maxime error architecto aliquid 
+        <h2>Welcome to our Charity</h2>
+
+        <div class="separador"></div>
+
+        <p class="text-description interlineado">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laudantium veritatis dolorem, impedit laboriosam cumque omnis accusantium
+            officia in quisquam id dicta sequi laborum odit culpa cupiditate atque,
+            repudiandae nemo fugit dolores, officiis quae incidunt.
+            Nulla quaerat at quam pariatur, veniam esse ipsam ad ratione,
+            eos iure doloremque? Doloremque maxime error architecto aliquid
             quibusdam est autem rem quasi culpa, nisi numquam!
         </p>
 
-        <div>
-            <h3>Read More</h3>
+        <span class="button d-flex mt-50">
+            Read More
+        </span>
+    </div>
+
+    <!--UPCOMING EVENTS-->
+
+    <div class="sec-2 p-20">
+        <h2 class="pt-60">Upcoming Events</h2>
+        <div class="separador"></div>
+
+        <!--EVENT-1-->
+
+        <div class="d-flex pb-20">
+            <div>
+                <img class="pr-10" src="images/event-1.jpg" alt="Event New York">
+            </div>
+            <div>
+                <h3>Fundraiser for kids</h3>
+
+                <h4>Aug 25, 2018 | Ball Room New York</h4>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae delectus deleniti explicabo.
+                </p>
+
+                <h5 class="text-orange">Read More</h5>
+            </div>
         </div>
 
-    </section>
+        <!--EVENT-2-->
 
-    <section>
+        <div class="d-flex pb-20">
+            <div>
+                <img class="pr-10" src="images/event-2.jpg" alt="Event New York 2">
+            </div>
+            <div>
+                <h3>Bring water to the childrens</h3>
 
-        <h2>Upcoming Events</h2>
+                <h4>Aug 25, 2018 | Ball Room New York</h4>
 
-        <div>
-            
-            <img src="images/event-1.jpg" alt="Event New York">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Veniam repellendus mollitia illo, ducimus vitae amet!
+                </p>
+
+                <h5 class="text-orange">Read More</h5>
+            </div>
+        </div>
+
+        <!--EVENT-3-->
+
+        <div class="d-flex">
+            <div>
+                <img class="pr-10" src="images/event-3.jpg" alt="Event New York 3">
+            </div>
+
+            <div>
+                <h3>Bring water to the childrens</h3>
+
+                <h4>Aug 25, 2018 | Ball Room New York</h4>
+
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cupiditate exercitationem ipsum eaque omnis.
+                </p>
+
+                <h5 class="text-orange">Read More</h5>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2>Featured Cause</h2>
+        <div class="separador"></div>
+
+        <div class="featured">
+            <img src="images/featured-causes.jpg" alt="Featured Causes Image">
 
             <h3>Fundraiser for kids</h3>
 
             <h4>Aug 25, 2018 | Ball Room New York</h4>
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Repudiandae delectus deleniti explicabo.
+            <p class="text-description interlineado mt-25">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Alias maxime beatae nisi, provident perspiciatis tenetur.
             </p>
 
-            <h5>Read More</h5>
+            <span class="button d-flex m-10">
+                Donate Now
+            </span>
 
+            <div>
+                <!--barra de porcentajes//-->
+            </div>
+
+            <div>
+                <p class="text-description">Raised: $56,680 Goal:$ 70,000</p>
+            </div>
         </div>
-
-        <div>
-
-            <img src="images/event-2.jpg" alt="Event New York 2">
-
-            <h3>Bring water to the childrens</h3>
-
-            <h4>Aug 25, 2018 | Ball Room New York</h4>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Veniam repellendus mollitia illo, ducimus vitae amet!
-            </p>
-
-            <h5>Read More</h5>
-        </div>
-
-        <div>
-
-            <img src="images/event-3.jpg" alt="Event New York 3">
-
-            <h3>Bring water to the childrens</h3>
-
-            <h4>Aug 25, 2018 | Ball Room New York</h4>
-
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Cupiditate exercitationem ipsum eaque omnis.
-            </p>
-
-            <h5>Read More</h5>
-        </div>
-
-    </section>
-
-    <section>
-
-        <h2>Featured Cause</h2>
-
-        <img src="images/featured-causes.jpg" alt="Featured Causes Image">
-        
-        <h3>Fundraiser for kids</h3>
-
-        <h4>Aug 25, 2018 | Ball Room New York</h4>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Alias maxime beatae nisi, provident perspiciatis tenetur.
-        </p>
-
-        <div>
-            <p>Donate Now</p>    
-        </div>
-
-        <div> 
-            <!--barra de porcentajes//--> 
-        </div>
-
-        <div>
-            <p>Raised: $56,680    Goal:$ 70,000</p>
-        </div>
-
-    </section>
+    </div>
 
     <footer>
-    
-        <img src="images/foot-logo.png" alt="Logo The Charity">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Odit quod reprehenderit, temporibus deserunt ullam neque 
-            voluptatum explicabo voluptatibus voluptate perspiciatis, 
-            aliquam officia officiis quasi aperiam corporis quam, 
+        <img class="padding-card" src="images/foot-logo.png" alt="Logo The Charity">
+        <p class="description-inactive">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Odit quod reprehenderit, temporibus deserunt ullam neque
+            voluptatum explicabo voluptatibus voluptate perspiciatis,
+            aliquam officia officiis quasi aperiam corporis quam,
             eos minima magni?
         </p>
 
@@ -185,41 +214,38 @@
         </div>
 
         <div>
+            <h2>Useful Links</h2>
 
-            <h5>Useful Links</h5>
-
-        <nav>
-
-            <ul>
-                <li>Privacy Politicy</li>
-                <li>Become a Volunteer</li>
-                <li>Donate</li>
-                <li>Testimonials</li>
-                <li>Causes</li>
-                <li>Portfolio</li>
-                <li>News</li>
-            </ul>
-
-        </nav>
-
+            <nav>
+                <ul class="description-inactive">
+                    <li>Privacy Politicy</li>
+                    <li>Become a Volunteer</li>
+                    <li>Donate</li>
+                    <li>Testimonials</li>
+                    <li>Causes</li>
+                    <li>Portfolio</li>
+                    <li>News</li>
+                </ul>
+            </nav>
         </div>
 
         <div>
+            <h2>Latest News</h2>
 
-            <h5>Latest News</h5>
-            <h6>A new cause to help</h6>
+            <h6 class="description-inactive">A new cause to help</h6>
             <h6>March 12, 2018</h6>
-            <h6>We love to help people</h6>
+
+            <h6 class="description-inactive">We love to help people</h6>
             <h6>March 12, 2018</h6>
-            <h6>The new ideas for helping</h6>
+
+            <h6 class="description-inactive">The new ideas for helping</h6>
             <h6>March 12, 2018</h6>
-         
         </div>
 
         <div>
             <h5>Contact</h5>
 
-            <ul>
+            <ul class="description-inactive">
                 <li>+45 677 89993000 223</li>
                 <li>office@template.com</li>
                 <li>Main Str. no 45-46, b3, 56832, Los Angeles, CA</li>
@@ -231,10 +257,11 @@
         </div>
 
         <div>
-            <p>Copyright c 2019 All rights reserved | This template is made whit by</p>
+            <p class="description-inactive padding-card">Copyright c 2019 All rights reserved | This template is made
+                whit by</p>
         </div>
-
     </footer>
 
 </body>
+
 </html>
