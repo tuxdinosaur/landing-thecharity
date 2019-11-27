@@ -9,16 +9,22 @@
   display: flex;
 }
 
+
+
+.logo {
+  margin-top: 10px;
+}
+
 .container-banner {
   text-align: center;
   background-color: #ff5600;
+  justify-content: center;
 }
 
 .banner {
   background-color: black;
   color: white;
   max-height: 100%;
-  height: auto;
 }
 
 .active-card {
@@ -152,6 +158,21 @@ mb-10 {
   color: #ff5600;
 }
 
+.event div h3 {
+  color: black;
+  font-size: 16px;
+}
+
+.event div h4 {
+  color: black;
+  font-size: 12px;
+}
+
+.event div p {
+  color: gray;
+  font-size: 16px;
+}
+
 .padding-card {
   padding: 35px;
 }
@@ -209,6 +230,11 @@ footer {
 .featured {
   margin: 20px;
   background-color: #edf3f5;
+}
+
+.imagefeatured {
+  display: flex;
+  margin: auto;
 }
 
 /*END SECCIONES*/
@@ -290,4 +316,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: arial, sans-serif;
+}
+
+ul {
+  list-style: none;
 }
