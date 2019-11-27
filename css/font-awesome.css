@@ -5,3 +5,26 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-rendering: auto;
+}
+
+.fa-phone::before{
+  content: "\f095";
+  color: orange;
+}
+
+.fa-envelope::before{
+  content: "\f0e0";
+  color: orange;
+}
+
+.fa-map-maker::before{
+  content: "\f041";
+  color: orange;
+}
